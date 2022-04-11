@@ -27,9 +27,23 @@ Based on the two data sets that were created and the limitation of not exceeding
 
 ![](https://github.com/mquimi/MechaCar_Statistical_Analysis/blob/main/imgs/one_sample_T_test.png)
 
-- Based on the T-Test result it shows that the p-valuse is not low enough(.0603) for us to reject the null hypothesis.
-
-
 ![](https://github.com/mquimi/MechaCar_Statistical_Analysis/blob/main/imgs/Lots.png)
 
 - The p-value is .6028. If we assume that our significance level was the common .05%, then the p-value is more than our significane level, meaning we do not have suffiencinet evidence to reject the null hypothesis and the two means are similar.
+
+## Study Design: MechaCar vs Competition
+
+- What metric or metrics are you going to test?
+- What is the null hypothesis or alternative hypothesis?
+- What statistical test would you use to test the hypothesis? And why?
+- What data is needed to run the statistical test?
+
+When comparing MechaCar to its competition, the MechaCar should consider using an ANOVA test to compare the MechaCar in various categories such as:
+
+                - cost
+                - city 
+                - highway fuel efficiency
+                - horse power, safety rating
+                - maintenance cost
+
+The ANOVA test will test to see if the means from different samples are  similar or different. If the p-value is > than 0.05%, then MecahCar has the same or similar performance within these categories (the null hypothesis). If the p-value is < than 0.05%, then MechaCar is significantly different. If MechaCar's average is below or above, the other averages would show how it's performing against its competitors (below = worse, above = better)
