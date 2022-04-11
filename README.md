@@ -2,7 +2,7 @@
 
 ## Linear Regression to Predict MPG
 
-![](MechaCar_Statistical_Analysis/blob/main/imgs/Linerar_Regression.png)
+![](https://github.com/mquimi/MechaCar_Statistical_Analysis/tree/main/imgs)
 -Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 <br>The two variables that provided a non-random amount of variance to the mpg values were the vehicle length and the groun_clearance. 
 <br>
